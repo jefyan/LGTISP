@@ -47,6 +47,7 @@
 // - More information at http://code.google.com/p/mega-isp
 
 // LarduinoISP for LGTF8FX8P Series
+#define SERIAL_RX_BUFFER_SIZE 250
 #include "swd_lgt8fx8p.h"
 
 #if SERIAL_RX_BUFFER_SIZE < 250 // 64 bytes的RX缓冲不够大
